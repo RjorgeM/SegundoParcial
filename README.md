@@ -1,3 +1,38 @@
+# Examen Serie 3 - CRUD de Empleados con NestJS, PostgreSQL y Docker
+
+## Descripción
+
+Este proyecto tiene como objetivo crear una aplicación CRUD (Crear, Leer, Actualizar y Eliminar) para la gestión de empleados. Se ha utilizado **NestJS** como el framework backend debido a su arquitectura modular y fácil integración con bases de datos como **PostgreSQL**, que será la encargada de almacenar los datos de los empleados. Además, se emplea **Docker** para contenerizar tanto la aplicación como la base de datos, facilitando así la portabilidad y escalabilidad de la solución.
+
+La aplicación permitirá gestionar empleados a través de un API REST con las siguientes funcionalidades:
+- Crear empleados.
+- Leer empleados (individual o todos).
+- Actualizar empleados.
+- Eliminar empleados.
+
+### Funcionalidades principales
+
+- **API REST**: Se exponen endpoints para manejar las operaciones CRUD de empleados.
+- **Persistencia**: Todos los empleados se almacenan en una base de datos **PostgreSQL**.
+- **Contenerización**: Uso de **Docker** y **Docker Compose** para levantar tanto la base de datos como la aplicación en contenedores separados.
+
+## Requisitos
+
+Antes de continuar, asegúrate de tener instalados los siguientes componentes en tu sistema:
+
+- **Node.js** (versión 12 o superior).
+- **Yarn** o **npm** (para la instalación de dependencias).
+- **Docker** y **Docker Compose** (para contenerización).
+- **PostgreSQL** (si no utilizas Docker para la base de datos).
+
+### Tecnologías utilizadas
+
+- **NestJS**: Framework backend de Node.js basado en TypeScript.
+- **TypeORM**: ORM utilizado para manejar las interacciones con la base de datos PostgreSQL.
+- **PostgreSQL**: Base de datos relacional utilizada para almacenar los datos de empleados.
+- **Docker**: Herramienta de contenerización para empaquetar la aplicación y su base de datos.
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
